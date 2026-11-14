@@ -6,7 +6,6 @@ J'ai toujours un riff ou une ligne de basse en tête au mauvais moment, et ouvri
 
 ## Dedans
 
-| | | |
 |---|---|---|
 | 🎹 | Piano roll | Clavier, basse, guitare |
 | 🥁 | Batterie | Grille de 16 pas |
