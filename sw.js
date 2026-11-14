@@ -1,11 +1,11 @@
 /* Pocket Studio — service worker. Change VERSION à chaque déploiement pour forcer la mise à jour. */
-const VERSION = 'v1';
+const VERSION = 'v2';
 const CACHE = 'pocket-studio-' + VERSION;
 const SHELL = [
   './', 'index.html', 'manifest.webmanifest',
-  'icons/icon.svg', 'icons/icon-192.png', 'icons/icon-512.png', 'icons/icon-maskable-512.png', 'icons/apple-touch-icon.png',
-  'fonts/dm-mono-latin-400-normal.woff2', 'fonts/dm-mono-latin-500-normal.woff2',
-  'fonts/instrument-sans-latin-500-normal.woff2', 'fonts/instrument-sans-latin-600-normal.woff2', 'fonts/instrument-sans-latin-700-normal.woff2'
+  'icon.svg', 'icon-192.png', 'icon-512.png', 'icon-maskable-512.png', 'apple-touch-icon.png',
+  'dm-mono-latin-400-normal.woff2', 'dm-mono-latin-500-normal.woff2',
+  'instrument-sans-latin-500-normal.woff2', 'instrument-sans-latin-600-normal.woff2', 'instrument-sans-latin-700-normal.woff2'
 ];
 self.addEventListener('install', e => { e.waitUntil(caches.open(CACHE).then(c => c.addAll(SHELL)).then(() => self.skipWaiting())); });
 self.addEventListener('activate', e => {
