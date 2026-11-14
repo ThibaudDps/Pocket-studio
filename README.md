@@ -37,7 +37,7 @@ Chaque fichier garde le tempo et la signature, la batterie part sur le canal 10.
 
 ## Pour les curieux
 
-Une seule page HTML, aucune dépendance, polices incluses. Tous les fichiers sont à la racine, sans sous-dossier. Hébergée sur GitHub Pages : Settings → Pages → `main` / root.
+Une seule page HTML, aucune dépendance, polices incluses. Hébergée sur GitHub Pages : Settings → Pages → `main` / root.
 
 Après chaque mise à jour, change `VERSION` dans `sw.js`, sinon les téléphones gardent l'ancienne version en cache.
 
